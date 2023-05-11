@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Laboratorio-05</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tittle_new_movie_text">New Movie</string>
+    <string name="name_edit_text">Name</string>
+    <string name="category_editext_newmovie">Category</string>
+    <string name="description_edittext_newMovie">Description</string>
+    <string name="calification_edittext_newMovie">Calification</string>
+    <string name="description_text_view">la galaxia está al borde de la destrucción mientras la guerra entre los Separatistas y la República llega a su clímax. El joven Jedi Anakin Skywalker se encuentra dividido entre su lealtad a la Orden Jedi y su amor por Padmé Amidala, mientras el malvado Darth Sidious manipula su destino.</string>
+    <string name="fiction_category_text">Ciencia FIcciòn</string>
+    <string name="calification_category_text">9.8</string>
+    <string name="name_movie_text">Star Wars episidio 3: La Vengaza de los Sith</string>
+    <string name="description_text_button">Presionar para añadir una pelicula nueva</string>
+</resources>
