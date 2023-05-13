@@ -1,6 +1,5 @@
-package com.example.laboratorio_05.ui.movie
+package com.example.laboratorio_05.ui.movie.viewmodel
 
-import android.text.Editable.Factory
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.APPLICATION_KEY
@@ -56,6 +55,13 @@ class MovieViewModel (private val repository: MovieRepository) : ViewModel() {
 
     fun clearStatus() {
         status.value = BASE_STATE
+    }
+
+    fun setSelectedMovie (movie: MovieModel){
+        name.value = movie.name
+        category.value = movie.category
+        description.value = movie.description
+        qualification.value = movie.qualification
     }
 
     companion object {

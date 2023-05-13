@@ -4,12 +4,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ui.movie.NewMovieFragment">
+    tools:context=".ui.movie.newmovie.NewMovieFragment">
 
     <data>
         <variable
             name="viewmodel"
-            type="com.example.laboratorio_05.ui.movie.MovieViewModel" />
+            type="com.example.laboratorio_05.ui.movie.viewmodel.MovieViewModel" />
     </data>
 
     <FrameLayout

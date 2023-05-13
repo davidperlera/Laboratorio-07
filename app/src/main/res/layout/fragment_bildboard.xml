@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ui.movie.BildboardFragment">
+    tools:context=".ui.movie.bilboard.BildboardFragment">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -42,7 +42,7 @@
 
             <androidx.cardview.widget.CardView
                 app:cardCornerRadius="@dimen/small_gap"
-                android:id="@+id/cardView_action_info"
+                android:id="@+id/movieItemCard"
                 android:layout_width="match_parent"
                 android:layout_height="104dp"
                 android:layout_marginStart="@dimen/small_gap"
@@ -72,7 +72,7 @@
                         android:padding="8dp">
 
                         <TextView
-                            android:id="@+id/textView2"
+                            android:id="@+id/tittleTextView"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/name_movie_text"
@@ -82,16 +82,16 @@
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
-                            android:id="@+id/calification_text_view_bilboard"
+                            android:id="@+id/qualification_text_view_bilboard"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:text="@string/calification_category_text"
                             android:textColor="@android:color/holo_orange_light"
                             android:textSize="20sp"
-                            app:layout_constraintEnd_toEndOf="@+id/textView2"
-                            app:layout_constraintStart_toStartOf="@+id/textView2"
-                            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                            app:layout_constraintEnd_toEndOf="@+id/tittleTextView"
+                            app:layout_constraintStart_toStartOf="@+id/tittleTextView"
+                            app:layout_constraintTop_toBottomOf="@+id/tittleTextView" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
